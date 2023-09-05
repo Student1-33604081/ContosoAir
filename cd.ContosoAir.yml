@@ -15,6 +15,9 @@ resources:
       include:
        - master
 
+pool:
+vmImage: ubuntu-latest
+
 steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
